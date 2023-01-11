@@ -27,3 +27,5 @@ List Example:
 * Dot
 * Dot
 
+![Image](/q9.3.png)
+
