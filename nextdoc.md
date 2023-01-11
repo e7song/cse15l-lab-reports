@@ -3,7 +3,7 @@
 *Testing the italics function of Markdown:*
 [Link](https://www.google.com/)
 
-![Image](https://cdn.pixabay.com/photo/2023/01/07/15/24/trees-7703491_1280.jpg)
+![Image](https://cdn.pixabay.com/photo/2023/01/07/15/24/trees-7703491_1280.jpg = 250x250)
 
 > This is a blockquote. 
 
