@@ -12,6 +12,9 @@ Opening up VS Code should bring you to a window that looks like this:
 
 <img src="labreportone_vs_2.png" alt="." title="." width="500" height="380" />
 
+##### Personal Process for Part One
+I already had VS Code installed from CSE 11, so I skipped this step entirely.
+
 ## Part Two- Remote Access
 
 Download and install git.
@@ -20,7 +23,7 @@ Download and install git.
 
 > To set git bash as your default terminal, follow this list of steps.
 > 1. press ```CTRL + SHIFT + P``` to show all commands
-> 2. type *Select Default Profile* <br /> <img src="labreportone_ra_1.png" alt="." title="." width="1266" height="166" />
+> 2. type *Select Default Profile* <br /> <img src="labreportone_ra_1.png" alt="." title="." width="1266" height="166" /> then select "Git Bash"
 > 3. press ```CTRL + ` ``` to open up the terminal
 > 4. to change terminal types <br /> <img src="labreportone_ra_2.png" alt="." title="." width="161" height="192" />
 
