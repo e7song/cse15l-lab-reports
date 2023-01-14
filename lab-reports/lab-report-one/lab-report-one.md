@@ -1,6 +1,6 @@
 # **CSE 15L Lab Report 1- Remote Access Tutorial**
 
-## Part One- Visual Studio Code Installation
+## Part One- Visual Studio Code Installation (skip if it has already been installed)
 
 Download VS Code via [this link] (https://code.visualstudio.com/)
 
