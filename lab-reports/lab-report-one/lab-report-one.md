@@ -4,10 +4,12 @@
 
 Download VS Code via [this link] (https://code.visualstudio.com/)
 
-Follow the installation steps from the website. *Mac users may see a slightly different site than the picture below.*
+Follow the installation steps from the website. (*Mac users may see a slightly different site than the picture below.*)
 
-![image](labreportone_vs_1.png)
+![labreportone_vs_1](labreportone_vs_1.png)
 
-When you 
+Opening up VS Code should bring you to a window that looks like this:
 
-![labreportone_vs_2](https://user-images.githubusercontent.com/67176000/212458126-c66a66e3-f7dd-4960-b664-2cd3efd46342.png)
+![labreportone_vs_2](https://user-images.githubusercontent.com/67176000/212458380-f4b1cecd-8ee3-46e3-a635-3f10aae247c5.png)
+
+## Part Two- 
