@@ -5,11 +5,12 @@
 Download VS Code via [this link] (https://code.visualstudio.com/)
 
 Follow the installation steps from the website. (*Mac users may see a slightly different site than the picture below.*)
-![labreportone_vs_1](labreportone_vs_1.png)
+
+<img src="labreportone_vs_1.png" alt="." title="." width="580" height="270" />
 
 Opening up VS Code should bring you to a window that looks like this:
 
-![labreportone_vs_2](https://user-images.githubusercontent.com/67176000/212458380-f4b1cecd-8ee3-46e3-a635-3f10aae247c5.png)
+<img src="labreportone_vs_2.png" alt="." title="." width="500" height="380" />
 
 ## Part Two- Remote Access
 
@@ -19,8 +20,10 @@ Download and install git.
 
 > To set git bash as your default terminal, follow this list of steps.
 > 1. press ```CTRL + SHIFT + P``` to show all commands
-> 2. type *Select Default Profile* ![labreportone_ra_1](https://user-images.githubusercontent.com/67176000/212460226-6c56c509-0142-4445-a2ff-964e5174d5ed.png)
-> 3. 
+> 2. type *Select Default Profile* <img src="labreportone_ra_1.png" alt="." title="." width="1266" height="166" />
+> 3. press ```CTRL + \` ``` to open up the terminal
+> 4. <img src="labreportone_ra_2.png" alt="." title="." width="332" height="384" />
+
 
 In the VS Code window, press ``` CTRL + ` ``` to open up the terminal.
 
