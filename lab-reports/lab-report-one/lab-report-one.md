@@ -49,6 +49,6 @@ This is what pops up for me. I had to additionally type in "yes" since I was con
 
 #### Personal Process for Trying Some Commands
 <img src="labreportone_cmd_1.png" alt="" title="Initial Logging In" width="625" height= "70" />
-<img src="labreportone_cmd_2.png" alt="" title="Commands Tried" width="457" height= "50" />
+<img src="labreportone_cmd_2.png" alt="" title="Commands Tried" width="457" height= "350" />
 
 
