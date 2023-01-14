@@ -6,5 +6,5 @@ Download VS Code via [this link] (https://code.visualstudio.com/)
 
 Follow the installation steps from the website.
 
-![image](/images/lab_one_vs_1.png]
+![image](labreportone_vs_1.png]
 
