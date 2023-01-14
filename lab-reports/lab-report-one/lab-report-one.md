@@ -36,15 +36,19 @@ The blank should be unique to each person.
 > **To find your unique identifier**
 > 1. [Click on this link](https://sdacs.ucsd.edu/~icc/index.php)
 > 2. log in with your username and student ID
-> 3. scroll down until you find this section <br /> <img src="labreportone_ra_4.png" alt="." title="." width="310" height="82" />
+> 3. scroll down until you find this section <br /> <img src="labreportone_ra_4.png" alt="" title="STudent Account" width="310" height="82" />
 > 4. note: you have need to change your passsword to set one for the remote access process
 
 ##### Personal Process for Remote Access
-<img src="labreportone_ra_3.png" alt="." title="." width="625" height= "70" />
+<img src="labreportone_ra_3.png" alt="" title="VS Code Terminal" width="625" height= "70" />
 This is what pops up for me. I had to additionally type in "yes" since I was connecting for the first time. I also had issues revolving around the password; changing the password changed the password for all my UCSD accounts rather than just that course specific account.
-<br />
 
 <br /> *Side note: although the password section looks blank, the terminal is reading your keyboard inputs*
 
 ## Part Three- Trying Some Commands
+
+#### Personal Process for Trying Some Commands
+<img src="labreportone_cmd_1.png" alt="" title="Initial Logging In" width="625" height= "70" />
+<img src="labreportone_cmd_2.png" alt="" title="Commands Tried" width="457" height= "50" />
+
 
