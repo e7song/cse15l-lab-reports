@@ -23,7 +23,7 @@ Download and install git.
 
 > To set git bash as your default terminal, follow this list of steps.
 > 1. press ```CTRL + SHIFT + P``` to show all commands
-> 2. type *Select Default Profile* <br /> <img src="labreportone_ra_1.png" alt="" title="Command Line" width="1266" height="166" /> then select "Git Bash"
+> 2. type *Select Default Profile* and select "Git Bash"<br /> <img src="labreportone_ra_1.png" alt="" title="Command Line" width="633" height="83" />
 > 3. press ```CTRL + ` ```  to open up the terminal
 > 4. to change terminal types <br /> <img src="labreportone_ra_2.png" alt="." title="." width="161" height="192" />`
 
