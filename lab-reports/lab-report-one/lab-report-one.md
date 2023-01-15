@@ -50,21 +50,17 @@ This is what pops up for me. I had to additionally type in "yes" since I was con
 Aftering gaining remote access, try out some commands.
 
 | Command | Function | Example |
-| :--- | :---: | ---:|
-| pwd | prints the working directory | [cs15lwi23amv@ieng6-202]:~:101$ pwd <br /> /home/linux/ieng6/cs15lwi23/cs15lwi23amv
-| cd
-| ls
+| :--- | :--- | :---|
+| pwd | prints the working directory | [cs15lwi23amv@ieng6-202]:~:101$ pwd <br /> /home/linux/ieng6/cs15lwi23/cs15lwi23amv |
+| cd | change directory | [cs15lwi23amv@ieng6-202]:~:103$ cd perl5 |
+| ls | lists files in the working directory | [cs15lwi23amv@ieng6-202]:~:102$ ls <br /> hello.txt  perl5 |
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
 
 #### **Personal Process for Trying Some Commands**
 <img src="labreportone_cmd_1.png" alt="" title="Initial Logging In" width="625" height= "70" />
 This is what the current like in terminal looked like after I logged in remotely.
 
 <br /> <img src="labreportone_cmd_2.png" alt="" title="Commands Tried" width="457" height= "350" />
-Here are the commands that I tried out. Mainly I just looked through the directory and played around with making a file called Hello.txt that contained the phrase "Hello World."
+<br /> Here are the commands that I tried out. Mainly I just looked through the directory and played around with making a file called Hello.txt that contained the phrase "Hello World."
 
 
