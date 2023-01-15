@@ -38,7 +38,7 @@ Follow the instructions that will appear in your terminal.
 > 1. [Click on this link](https://sdacs.ucsd.edu/~icc/index.php)
 > 2. log in with your username and student ID
 > 3. scroll down until you find this section <br /> <img src="labreportone_ra_4.png" alt="" title="STudent Account" width="310" height="82" />
-> 4. note: you have need to change your passsword to set one for the remote access process
+> 4. note: you may need to change your passsword to set one up for the remote access process
 
 ##### **Personal Process for Remote Access**
 <img src="labreportone_ra_3.png" alt="" title="VS Code Terminal" width="625" height= "70" />
