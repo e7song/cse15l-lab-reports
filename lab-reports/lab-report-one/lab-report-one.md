@@ -56,6 +56,10 @@ Aftering gaining remote access, try out some commands.
 | ls | lists files in the working directory | [cs15lwi23amv@ieng6-202]:~:102$ ls <br /> hello.txt  perl5 |
 
 
+
+To logout, press ```CTRL + D```. This is what it looks like afterwards.
+[cs15lwi23amv@ieng6-203]:perl5:123$ logout <br /> Connection to ieng6.ucsd.edu closed.
+
 #### **Personal Process for Trying Some Commands**
 <img src="labreportone_cmd_1.png" alt="" title="Initial Logging In" width="625" height= "70" />
 This is what the current like in terminal looked like after I logged in remotely.
