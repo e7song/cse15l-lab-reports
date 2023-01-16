@@ -52,7 +52,7 @@ Aftering gaining remote access, try out some commands.
 | Command | Function | Example |
 | :--- | :--- | :---|
 | pwd | prints the working directory | [cs15lwi23amv@ieng6-202]:~:101$ pwd <br /> /home/linux/ieng6/cs15lwi23/cs15lwi23amv |
-| cd | change directory | [cs15lwi23amv@ieng6-202]:~:103$ cd perl5 |
+| cd | change directory | [cs15lwi23amv@ieng6-203]:~:121$ cd perl5 <br /> [cs15lwi23amv@ieng6-203]:perl5:122$ pwd <br /> /home/linux/ieng6/cs15lwi23/cs15lwi23amv/perl5|
 | ls | lists files in the working directory | [cs15lwi23amv@ieng6-202]:~:102$ ls <br /> hello.txt  perl5 |
 
 
@@ -61,6 +61,6 @@ Aftering gaining remote access, try out some commands.
 This is what the current like in terminal looked like after I logged in remotely.
 
 <br /> <img src="labreportone_cmd_2.png" alt="" title="Commands Tried" width="457" height= "350" />
-<br /> Here are the commands that I tried out. Mainly I just looked through the directory and played around with making a file called Hello.txt that contained the phrase "Hello World."
+<br /> Here are the commands that I tried out. Mainly I just looked through the directory, changed the directory, and played around with making a file called Hello.txt that contained the phrase "Hello World."
 
 
