@@ -44,6 +44,9 @@ Follow the instructions that will appear in your terminal.
 <img src="labreportone_ra_3.png" alt="" title="VS Code Terminal" width="625" height= "70" />
 This is what pops up for me. I had to additionally type in "yes" since I was connecting for the first time. I also had issues revolving around the password; changing the password changed the password for all my UCSD accounts rather than just that course specific account.
 
+<img src="labreportone_ra_4.png" alt="" title="VS Code Terminal" width="337" height= "152" />
+This is what appears for me after I log in.
+
 <br /> *Side note: although the password section looks blank, the terminal is reading your keyboard inputs*
 
 ## Part Three- Trying Some Commands
@@ -64,7 +67,7 @@ To logout, press ```CTRL + D```. This is what it looks like afterwards.
 <img src="labreportone_cmd_1.png" alt="" title="Initial Logging In" width="625" height= "70" />
 This is what the current like in terminal looked like after I logged in remotely.
 
-<br /> <img src="labreportone_cmd_2.png" alt="" title="Commands Tried" width="457" height= "350" />
+<br /> <img src="labreportone_cmd_2.png" alt="" title="Commands Tried" width="235" height= "175" />
 <br /> Here are the commands that I tried out. Mainly I just looked through the directory, changed the directory, and played around with making a file called Hello.txt that contained the phrase "Hello World."
 
 
