@@ -61,7 +61,7 @@ Aftering gaining remote access, try out some commands.
 
 
 To logout, press ```CTRL + D```. This is what it looks like afterwards.
-[cs15lwi23amv@ieng6-203]:perl5:123$ logout <br /> Connection to ieng6.ucsd.edu closed.
+<br /> [cs15lwi23amv@ieng6-203]:perl5:123$ logout <br /> Connection to ieng6.ucsd.edu closed.
 
 #### **Personal Process for Trying Some Commands**
 <img src="labreportone_cmd_1.png" alt="" title="Initial Logging In" width="625" height= "70" />
