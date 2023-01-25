@@ -42,10 +42,10 @@ Follow the instructions that will appear in your terminal.
 
 ##### **Personal Process for Remote Access**
 <img src="labreportone_ra_3.png" alt="" title="VS Code Terminal" width="625" height= "70" />
-This is what pops up for me. I had to additionally type in "yes" since I was connecting for the first time. I also had issues revolving around the password; changing the password changed the password for all my UCSD accounts rather than just that course specific account.
+<br /> This is what pops up for me. I had to additionally type in "yes" since I was connecting for the first time. I also had issues revolving around the password; changing the password changed the password for all my UCSD accounts rather than just that course specific account.
 
-<img src="labreportone_ra_4.png" alt="" title="VS Code Terminal" width="337" height= "152" />
-This is what appears for me after I log in.
+<br /> <img src="labreportone_ra_4.png" alt="" title="VS Code Terminal" width="337" height= "152" />
+<br /> This is what appears for me after I log in.
 
 <br /> *Side note: although the password section looks blank, the terminal is reading your keyboard inputs*
 
