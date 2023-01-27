@@ -48,7 +48,7 @@ class ServerString implements URLHandler {
             firstMessage = false;
             return "Use Path /add-message?s=<string>";
         } else {
-            return "Invalid URL";
+            return "Invalid URL\nCurrent Strings:\n" + overallMessage;
         }
 
     }
