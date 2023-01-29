@@ -185,13 +185,93 @@ The hand-calculated value is larger than the returned value; this suggests that 
 ### Bug Fixes:  
 reverseInPlace:  
 *Before*
-```
+```  
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
-```
+```  
+*After*  
+```  
+  static void reverseInPlace(int[] arr) {
+    //temporary array to hold reverse array
+    int[] temp = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      temp[i] = arr[arr.length - i - 1];
+    }
+    //reassigning arr
+    for (int j = 0; j < arr.length; j++) {
+      arr[j] = temp[j];
+    }
+  }
+  ```  
+  The before code is simplying assigning the front sections of the input array to the back sections of the input arr. This was producing the palindromic symptom. By deep copying arr in reverse order to temp and then recopying it back into arr, arr becomes reversed.  
+  
+  reversed:  
+  *Before*  
+  ```  
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+  ```  
+  *After*  
+  ```  
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+  ```  
+  The before code was assigning arr to newArray instead of the other way around. Because newArray is a newly initialized integer array, all its contents were 0s. This turned arr into an array of 0s. Switching the order around deep copies arr in reverse order into the newArray. Then, newArray is returned instead of arr.  
+  
+  averageWithoutLowest:  
+  *Before*
+  ```  
+  static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  }
+  ```  
+  *After*  
+  ```  
+  static double averageWithoutLowest(double[] arr) {
+    int numRemoved = 0;
+    if(arr.length < 2) { return 0.0; }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { lowest = num; }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { sum += num; }
+      else {
+        numRemoved++;
+      }
+    }
+    return sum / (arr.length - numRemoved);
+  }
+  
+  ```  
+  The before code was assuming that there would only be one instance of the lowest number. This assumption causes the symptom where the expected average is larger than the returned average. The fix keeps track of how many instances of the lower number there are. Then it accounts for that change in the operation calculating the average.
+  
+  
+  
+  
 
 
 
