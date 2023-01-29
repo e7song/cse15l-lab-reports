@@ -73,5 +73,11 @@ class StringServer {
     }
 }
 ```
-<br /> `/add-message` demonstrations:
+**<br /> `/add-message` demonstrations:**
 <br />
+<br /> C:\Users\19255\Documents\GitHub\cse15l-lab-reports\lab-reports\lab-report-two>java StringServer 4000
+<br /> Server Started! Visit http://localhost:4000 to visit.
+<br /> 
+<br /> Initial State (before any strings are added)
+<br /> 
+
