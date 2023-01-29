@@ -73,13 +73,31 @@ class StringServer {
     }
 }
 ```
-**<br /> `/add-message` demonstrations:**
-<br />
+### `/add-message` demonstrations:
 <br /> C:\Users\19255\Documents\GitHub\cse15l-lab-reports\lab-reports\lab-report-two>java StringServer 4000
 <br /> Server Started! Visit http://localhost:4000 to visit.
-<br /> 
-<br /> Initial State (before any strings are added)
+#### Initial State (before any strings are added): http://localhost:4000/
 <br /> <img src="labreporttwo_ss_1.png" alt="" title="initial" width="302" height="30" />
+#### Screenshot 1: http://localhost:4000/add-message?s=this%20is%20the%20first%20message%20to%20be%20added
+<img src="labreporttwo_ss_2.png" alt ="" title="first" width ="350" height="40" />
 
-http://localhost:4000/add-message?s=this%20is%20the%20first%20message%20to%20be%20added
+>The method being called in StringServer.java is `handleRequest`.  
+>The relevant argument to this method is the `URI url`.  
+>Values of Relevant Fields:  
+>`url`: http://localhost:4000/add-message?s=this%20is%20the%20first%20message%20to%20be%20added --> url input  
+>`overallMessage`: ""  --> changes to "this is the first message to be added\n"  
+>`firstMessage`: false --> stays false  
+>the overallMessage String changes because the query is adding a string; the firstMessage boolean is the same because it is no longer the firstMessage  
+
+#### Screenshot 2: http://localhost:4000/add-message?s=this%20is%20the%20second%20message%20to%20be%20added!
+<img src="labreporttwo_ss_3.png" alt ="" title="first" width ="370" height="60" />
+
+>The method being called in StringServer.java is `handleRequest`.  
+>The relevant argument to this method is the `URI url`.  
+>Values of Relevant Fields:  
+>`url`: http://localhost:4000/add-message?s=this%20is%20the%20second%20message%20to%20be%20added! --> url input  
+>`overallMessage`: ""  --> changes to "this is the first message to be added\nthis is the second message to be added!\n"  
+>`firstMessage`: false --> stays false  
+>the overallMessage String changes because the query is adding a string; the firstMessage boolean is the same because it is no longer the firstMessage
+
 
