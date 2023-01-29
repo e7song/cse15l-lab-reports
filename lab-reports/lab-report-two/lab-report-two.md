@@ -206,7 +206,7 @@ reverseInPlace:
     }
   }
   ```  
-  The before code is simplying assigning the front sections of the input array to the back sections of the input arr. This was producing the palindromic symptom. By deep copying arr in reverse order to temp and then recopying it back into arr, arr becomes reversed.  
+The before code is simplying assigning the front sections of the input array to the back sections of the input arr. This was producing the palindromic symptom. By deep copying arr in reverse order to temp and then recopying it back into arr, arr becomes reversed.  
   
   reversed:  
   *Before*  
@@ -229,7 +229,7 @@ reverseInPlace:
     return newArray;
   }
   ```  
-  The before code was assigning arr to newArray instead of the other way around. Because newArray is a newly initialized integer array, all its contents were 0s. This turned arr into an array of 0s. Switching the order around deep copies arr in reverse order into the newArray. Then, newArray is returned instead of arr.  
+The before code was assigning arr to newArray instead of the other way around. Because newArray is a newly initialized integer array, all its contents were 0s. This turned arr into an array of 0s. Switching the order around deep copies arr in reverse order into the newArray. Then, newArray is returned instead of arr.  
   
   averageWithoutLowest:  
   *Before*
@@ -267,9 +267,10 @@ reverseInPlace:
   }
   
   ```  
-  The before code was assuming that there would only be one instance of the lowest number. This assumption causes the symptom where the expected average is larger than the returned average. The fix keeps track of how many instances of the lower number there are. Then it accounts for that change in the operation calculating the average.
+The before code was assuming that there would only be one instance of the lowest number. This assumption causes the symptom where the expected average is larger than the returned average. The fix keeps track of how many instances of the lower number there are. Then it accounts for that change in the operation calculating the average.
   
-  
+### Part 3: Reflection
+From Week 2, I learned how to copy files from my end onto the remove server with the scp command (by using scp <file> cs15lwi23amv@ieng6.ucsd.edu:~/). I also learned how to use git clone (git clone <repo-url>) to clone repositories from Github onto my own computer or the remote server. From Week 3, I learned how to use JUnit to design test cases to figure out whether my code is performing how it should be or not. I didn't know that I could check for differences in arrays with assertArrayEquals. This helped me out a lot (especially since it was relevant to my PA assignment in CSE 12). 
   
   
 
