@@ -1,6 +1,6 @@
 # **CSE 15L Winter 2023 Lab Report 2**
 ### Eric Song, Wednesday B270 1 p.m.
-### <br /> Part 1: StringServer
+### Part 1: StringServer
 
 StringServer.java Code:
 ```
@@ -99,5 +99,7 @@ class StringServer {
 >`overallMessage`: ""  --> changes to "this is the first message to be added\nthis is the second message to be added!\n"  
 >`firstMessage`: false --> stays false  
 >the overallMessage String changes because the query is adding a string; the firstMessage boolean is the same because it is no longer the firstMessage
+
+### Part 2: Bug Fixes
 
 
