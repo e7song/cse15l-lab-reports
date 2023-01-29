@@ -79,5 +79,7 @@ class StringServer {
 <br /> Server Started! Visit http://localhost:4000 to visit.
 <br /> 
 <br /> Initial State (before any strings are added)
-<br /> 
+<br /> <img src="labreporttwo_ss_1.png" alt="" title="initial" width="302" height="30" />
+
+http://localhost:4000/add-message?s=this%20is%20the%20first%20message%20to%20be%20added
 
