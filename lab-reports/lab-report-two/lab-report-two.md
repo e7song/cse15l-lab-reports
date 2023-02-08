@@ -88,6 +88,7 @@ class StringServer {
 >`overallMessage`: ""  --> changes to "this is the first message to be added\n"  
 >`firstMessage`: false --> stays false  
 >the overallMessage String changes because the query is adding a string; the firstMessage boolean is the same because it is no longer the firstMessage  
+
 #### Screenshot 2:
 ![image](https://user-images.githubusercontent.com/67176000/217477529-99dddcab-53a2-4abb-98c1-dedb75a1a4c2.png)   
 
