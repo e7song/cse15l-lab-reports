@@ -78,8 +78,8 @@ class StringServer {
 <br /> Server Started! Visit http://localhost:4000 to visit.
 #### Initial State (before any strings are added): http://localhost:4000/
 <br /> <img src="labreporttwo_ss_1.png" alt="" title="first ss" width="302" height="30" />
-#### Screenshot 1: http://localhost:4000/add-message?s=this%20is%20the%20first%20message%20to%20be%20added
-<img src="labreporttwo_ss_2.png" alt ="" title="second ss" width ="350" height="40" />
+#### Screenshot 1:
+![image](https://user-images.githubusercontent.com/67176000/217477282-3e655db9-f940-49ba-91ee-5b874ddbd384.png)   
 
 >The method being called in StringServer.java is `handleRequest`.  
 >The relevant argument to this method is the `URI url`.  
@@ -89,8 +89,8 @@ class StringServer {
 >`firstMessage`: false --> stays false  
 >the overallMessage String changes because the query is adding a string; the firstMessage boolean is the same because it is no longer the firstMessage  
 
-#### Screenshot 2: http://localhost:4000/add-message?s=this%20is%20the%20second%20message%20to%20be%20added!
-<img src="labreporttwo_ss_3.png" alt ="" title="third ss" width ="370" height="60" />
+#### Screenshot 2:
+![image](https://user-images.githubusercontent.com/67176000/217477529-99dddcab-53a2-4abb-98c1-dedb75a1a4c2.png)   
 
 >The method being called in StringServer.java is `handleRequest`.  
 >The relevant argument to this method is the `URI url`.  
@@ -168,17 +168,17 @@ public class ArrayTests {
 <br /> The above block of code contains the JUnit tests for ArrayExamples.java   
 
 #### Symptoms for reverseInPlace  
-<img src="labreporttwo_bf_1.png" alt ="" title="first bf" width ="1320" height="336" />  
+![image](https://user-images.githubusercontent.com/67176000/217477955-25790c90-14d9-4b23-a706-1960d1e3f089.png)   
 Based on the JUnit tests done on this method, it seems that it only works as intended when the input array is palindromic.  
 This suggests that there is an error in how the array is being copied.  
 
 #### Symptoms for reversed  
-<img src="labreporttwo_bf_2.png" alt ="" title="second bf" width ="1405" height="650" />  
+![image](https://user-images.githubusercontent.com/67176000/217478099-0d8f4543-e699-4ce6-b2ab-d71fbaae3e82.png)   
 Based on the JUnit tests, it seems that the contents of the array being output are only 0s.  
 This suggests that there is an error in copying the contents of one array to another.  
 
 #### Symptoms for averageWithoutLowest  
-<img src="labreporttwo_bf_3.png" alt ="" title="third bf" width ="1408" height="660" />  
+![image](https://user-images.githubusercontent.com/67176000/217478250-524672e4-6abb-4a5e-bec3-1d9f760b46ba.png)   
 Based on the JUnit test show above, there is an error in finding the average.  
 The hand-calculated value is larger than the returned value; this suggests that perhaps there is an error in how the sum is divided.  
 
