@@ -83,7 +83,109 @@ not added the modifier `-l`, the terminal would have been flooded with
 extra information.   
 
 
-##### **Method  #3- **
+##### **Method  #3- Ignore Case**   
+Another common problem you might run into is when you want to search for a   
+word but you don't know what that word looks like exactly. For our previous   
+examples, we knew that the word "Lucayans" was in the file. However, what if   
+we didn't know that "Lucayans" has a capital L?
+
+*Example 1- regular search*   
+```   
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -rl "Lucayans"
+written_2/travel_guides/berlitz2/Bahamas-History.txt
+
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -rl "lucayans"
+
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ 
+```   
+As this code snippet demonstrates, grep is case-sensitive. That is why   
+"Lucayans" throws out a result, but "lucayans" does not. To get rid of this   
+case-sensitivity when searching, you can use the `-i` modifier.
+
+`grep -i <word> <path>`
+
+Combining with the previous two examples, we have the following usages:
+
+*Example 2*   
+```
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -rli "lucayans"
+written_2/travel_guides/berlitz2/Bahamas-History.txt
+
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -r -l -i "lucayans"
+written_2/travel_guides/berlitz2/Bahamas-History.txt
+
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ 
+```   
+*Example 3*   
+```
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -rl "BrIdGeS"
+
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -rli "BrIdGeS"
+written_2/non-fiction/OUP/Castro/chA.txt
+written_2/travel_guides/berlitz1/HistoryItaly.txt
+written_2/travel_guides/berlitz1/IntroIstanbul.txt
+written_2/travel_guides/berlitz1/WhereToDublin.txt
+written_2/travel_guides/berlitz1/WhereToEdinburgh.txt
+written_2/travel_guides/berlitz1/WhereToFrance.txt
+written_2/travel_guides/berlitz1/WhereToFWI.txt
+written_2/travel_guides/berlitz1/WhereToHongKong.txt
+written_2/travel_guides/berlitz1/WhereToIbiza.txt
+written_2/travel_guides/berlitz1/WhereToIndia.txt
+written_2/travel_guides/berlitz1/WhereToIstanbul.txt
+written_2/travel_guides/berlitz1/WhereToItaly.txt
+written_2/travel_guides/berlitz1/WhereToJapan.txt
+written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
+written_2/travel_guides/berlitz1/WhereToMalaysia.txt
+written_2/travel_guides/berlitz1/WhereToMallorca.txt
+written_2/travel_guides/berlitz2/Algarve-History.txt
+written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt
+written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt
+written_2/travel_guides/berlitz2/Amsterdam-History.txt
+written_2/travel_guides/berlitz2/Amsterdam-Intro.txt
+written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt
+written_2/travel_guides/berlitz2/Amsterdam-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bali-WhereToGo.txt
+written_2/travel_guides/berlitz2/Beijing-WhereToGo.txt
+written_2/travel_guides/berlitz2/Berlin-History.txt
+written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt
+written_2/travel_guides/berlitz2/Boston-WhereToGo.txt
+written_2/travel_guides/berlitz2/California-WhatToDo.txt
+written_2/travel_guides/berlitz2/California-WhereToGo.txt
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+written_2/travel_guides/berlitz2/China-History.txt
+written_2/travel_guides/berlitz2/China-WhereToGo.txt
+written_2/travel_guides/berlitz2/Costa-History.txt
+written_2/travel_guides/berlitz2/Costa-WhereToGo.txt
+written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt
+written_2/travel_guides/berlitz2/NewOrleans-History.txt
+written_2/travel_guides/berlitz2/Paris-WhereToGo.txt
+written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
+written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt
+written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt
+
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$
+```   
+This modifier is useful because it gives us greater flexibility when we are   
+searching for a word. At this point, we can recursively search every file for   
+any string that matches the word we want and then return a single line that   
+represents the location of the file where that word is found.   
+
+##### **Method 4- Number of Occurences**   
+The two modifiers `-r` and `-l` are really powerful for easily identifying   
+the file that has the word you want. However, a downside of using `-l` is that   
+it does not tell you how many times that the word occurs in that that file.   
+
 
 
 
