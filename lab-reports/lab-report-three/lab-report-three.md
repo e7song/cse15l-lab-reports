@@ -57,11 +57,33 @@ minimize this clutter, you can use another modifier.
 `grep -r -l <word> <path (optional)>` or more simply, `grep -rl <word> <path (optional)>`   
 
 *Example #1:*   
-
+```
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -r -l "Lucayans"
+written_2/travel_guides/berlitz2/Bahamas-History.txt
+```   
+This example shows how much more convenient this modifier is. 
 
 *Example #2:*   
+```
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -rl "weird" ./written_2/
+./written_2/non-fiction/OUP/Kauffman/ch6.txt
+./written_2/travel_guides/berlitz1/WhatToFWI.txt
+./written_2/travel_guides/berlitz1/WhatToIbiza.txt
+./written_2/travel_guides/berlitz1/WhereToFrance.txt
+./written_2/travel_guides/berlitz1/WhereToHongKong.txt
+./written_2/travel_guides/berlitz1/WhereToIbiza.txt
+./written_2/travel_guides/berlitz1/WhereToMadrid.txt
+./written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt
+./written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
+```
+These two examples show how much more compact the information given is. Had we   
+not added the modifier `-l`, the terminal would have been flooded with   
+extra information.   
 
 
+##### **Method  #3- **
 
 
 
