@@ -3,9 +3,11 @@
 
 ### Researching Commands
 
-#### *Different ways to use grep*
-
-
+#### *Different ways to use grep*   
+If you need to search for a specific word in a certain file, it's pretty   
+straightforward to use `grep <word> <file>`. However, in the case where you   
+don't know exactly what you are searching for and where you need to search for   
+there are helpful modifications you can add on to the grep command.
 
 
 
