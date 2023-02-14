@@ -31,4 +31,4 @@ there are helpful modifications you can add on to the grep command.
 Click on [this link](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/) for more information
 
 ***Works Cited***   
-How to Use GREP Command in Linux/ Unix with Examples - Nixcraft. \nhttps://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/. 
+How to Use GREP Command in Linux/ Unix with Examples - Nixcraft. <br />https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/. 
