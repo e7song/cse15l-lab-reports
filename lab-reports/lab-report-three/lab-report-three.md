@@ -89,7 +89,7 @@ word but you don't know what that word looks like exactly. For our previous
 examples, we knew that the word "Lucayans" was in the file. However, what if   
 we didn't know that "Lucayans" has a capital L?
 
-*Example 1- regular search*   
+*Example #1- regular search*   
 ```   
 19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
 $ grep -rl "Lucayans"
@@ -109,7 +109,7 @@ case-sensitivity when searching, you can use the `-i` modifier.
 
 Combining with the previous two examples, we have the following usages:
 
-*Example 2*   
+*Example #2*   
 ```
 19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
 $ grep -rli "lucayans"
@@ -122,7 +122,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt
 19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
 $ 
 ```   
-*Example 3*   
+*Example #3*   
 ```
 19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
 $ grep -rl "BrIdGeS"
@@ -189,7 +189,7 @@ You can use the `c` modifier to count the number of occurances that the word
 has in the file.   
 `grep -c <word> <path>`   
 
-*Example 1*
+*Example #1*
 ```
 19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
 $ grep -c "Lucayans" written_2/travel_guides/berlitz2/Bahamas-History.txt 
@@ -198,7 +198,7 @@ $ grep -c "Lucayans" written_2/travel_guides/berlitz2/Bahamas-History.txt
 Based on the results, it seems that the word "Lucayans" occurs twice in the file   
 Bahamas-History.txt.   
 
-*Example 2*   
+*Example #2*   
 ```
 19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
 $ grep -r -c "bridge" ./written_2/travel_guides/berlitz2/Amsterdam*
