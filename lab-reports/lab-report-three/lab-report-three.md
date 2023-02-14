@@ -185,27 +185,38 @@ represents the location of the file where that word is found.
 The two modifiers `-r` and `-l` are really powerful for easily identifying   
 the file that has the word you want. However, a downside of using `-l` is that   
 it does not tell you how many times that the word occurs in that that file.   
+You can use the `c` modifier to count the number of occurances that the word   
+has in the file.   
+`grep -c <word> <path>`   
+
+*Example 1*
+```
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -c "Lucayans" written_2/travel_guides/berlitz2/Bahamas-History.txt 
+2
+```   
+Based on the results, it seems that the word "Lucayans" occurs twice in the file   
+Bahamas-History.txt.   
+
+*Example 2*   
+```
+19255@DESKTOP-5PUADJU MINGW64 ~/Documents/GitHub/docsearch (main)
+$ grep -r -c "bridge" ./written_2/travel_guides/berlitz2/Amsterdam*
+./written_2/travel_guides/berlitz2/Amsterdam-History.txt:1
+./written_2/travel_guides/berlitz2/Amsterdam-Intro.txt:2
+./written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt:1
+./written_2/travel_guides/berlitz2/Amsterdam-WhereToGo.txt:10
+```   
+For the sake of readability, the `-c` modifier was only used on the Amsterdam  
+files. The number of times the word "bridge" occurs is indicated by the number   
+following the colon on the far right of each line. Adding this modifier let us   
+find both the files that contain the word and the number of times that word   
+occurs.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Click on [this link](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/) for more information
+Click on [this link](https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/) for more information   
+This website contains more comprehensive information about all the grep modifiers   
+that I used.   
 
 ***Works Cited***   
 How to Use GREP Command in Linux/ Unix with Examples - Nixcraft. <br />https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/. 
