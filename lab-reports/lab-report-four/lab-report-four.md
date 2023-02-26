@@ -15,4 +15,18 @@
 
 ### Step 1: Preparing for the Competition   
 Before starting the competition, it's important to make sure that any existing forks (from previous attempts) are deleted.
-To do so, click on the **Settings**
+To do so, click on the **Settings** button ⚙️.   
+
+![image](https://user-images.githubusercontent.com/67176000/221398308-a059a567-408b-437c-b57c-f91f991e890e.png)   
+
+Scroll to the bottom and proceed with the following steps.   
+
+![image](https://user-images.githubusercontent.com/67176000/221398325-45d0fbf0-2b32-422c-908d-9d3ec15112bb.png)    
+
+### Step 2: Setup   
+
+
+
+
+
+
