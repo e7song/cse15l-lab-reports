@@ -24,7 +24,24 @@ Scroll to the bottom and proceed with the following steps.
 ![image](https://user-images.githubusercontent.com/67176000/221398325-45d0fbf0-2b32-422c-908d-9d3ec15112bb.png)    
 
 ### Step 2: Setup   
-Click on this ![link](https://github.com/ucsd-cse15l-w23/lab7).
+Click on this [link](https://github.com/ucsd-cse15l-w23/lab7) to go to the required repository and then fork it.   
+```
++-- lab7
+|   +-- lib
+|       +-- hamcrest-core-1.3.jar
+|       +-- junit-4.13.2.jar
+|   +-- ListExamples.java
+|   +-- ListExamplesTests.java
+```   
+Once this repository is forked, you should have the above files.   
+
+### Step 3: Start  
+Use a time keeping device to keep track of how long it takes for you to do steps 4-9.   
+
+### Step 4: Log into ieng6   
+Type `ssh cs15lwi23amv@ieng6.ucsd.edu` (exact login will vary based on user).   
+
+
 
 
 
