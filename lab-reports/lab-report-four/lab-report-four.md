@@ -1,7 +1,7 @@
 # CSE 15L Winter 2023 Lab Report #4   
-#### Eric Song, Wed. 1 p.m.    
+### Eric Song, Wed. 1 p.m.    
 
-Week 7 Lab Tasks
+#### Week 7 Lab Tasks
 >1. Setup Delete any existing forks of the repository you have on your account
 >2. Setup Fork the repository
 >3. The real deal Start the timer!
