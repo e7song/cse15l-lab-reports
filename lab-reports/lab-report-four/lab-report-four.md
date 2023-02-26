@@ -43,6 +43,19 @@ Type `ssh cs15lwi23amv@ieng6.ucsd.edu` (exact login will vary based on user).
 ![image](https://user-images.githubusercontent.com/67176000/221399392-b30ba543-5444-42a4-a823-ace39ebb9c97.png)   
 If you are not automatically signed in, refer to the *Github and Login Command-Line Setup* section of [this page](https://ucsd-cse15l-w23.github.io/week/week7/).   
 
+### Step 5: Clone your fork from Github
+Type `git clone git@github.com:e7song/lab7.git <enter>`.
+
+Immediately after, type `cd la <tab> <enter>`.
+
+### Step 6: Run the JUnit Tests
+Type `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java <enter>`.   
+
+Then `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests <enter>`.   
+
+### Step 7: Edit the code file to fix the failing test   
+
+
 
 
 
