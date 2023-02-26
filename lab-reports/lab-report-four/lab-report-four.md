@@ -63,7 +63,7 @@ The `<tab>` command autofills in lab7/, which saves time.
 * Use `nano ListExamples.java <enter>` to enter into the ListExamples.java file.   
 * Press `alt + /` to jump directly to the bottom of the file.   
 ![image](https://user-images.githubusercontent.com/67176000/221401758-ffa94b2e-0794-40ce-9b7e-e4191067fecf.png)   
-* Then type `<up> <up> <up> <up> <up> <up> <left arrow> <left arrow> <left arrow> <left arrow> <left arrow> <left arrow> <left arrow> <backspace> <2>`.   
+* Then type `<up> <up> <up> <up> <up> <up> <left arrow> <left arrow> <left arrow> <left arrow><left arrow>` <br /> `<left arrow> <left arrow> <backspace> <2>`.   
 This should replace `index1 += 1;` with `index2 +=1;`.   
 * Press `ctrl + o` then `<enter> ctrl + x`.
 ![image](https://user-images.githubusercontent.com/67176000/221401795-a6c7ac6c-3d6c-46a2-a251-19b89c797116.png)
