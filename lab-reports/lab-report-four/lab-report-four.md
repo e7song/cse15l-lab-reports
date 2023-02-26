@@ -44,7 +44,12 @@ Type `ssh cs15lwi23amv@ieng6.ucsd.edu` (exact login will vary based on user).
 If you are not automatically signed in, refer to the *Github and Login Command-Line Setup* section of [this page](https://ucsd-cse15l-w23.github.io/week/week7/).   
 
 ### Step 5: Clone your fork from Github
-Type `git clone git@github.com:e7song/lab7.git <enter>`.
+Type `git clone git@github.com:e7song/lab7.git <enter>`.   
+
+If this does not work, you may have forgotten to also remove ~/lab7/ from your remote directory.   
+   
+
+
 
 Immediately after, type `cd la <tab> <enter>`.
 
