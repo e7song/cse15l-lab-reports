@@ -40,6 +40,8 @@ Use a time keeping device to keep track of how long it takes for you to do steps
 
 ### Step 4: Log into ieng6   
 Type `ssh cs15lwi23amv@ieng6.ucsd.edu` (exact login will vary based on user).   
+![image](https://user-images.githubusercontent.com/67176000/221399392-b30ba543-5444-42a4-a823-ace39ebb9c97.png)   
+If you are not automatically signed in, refer to the *Github and Login Command-Line Setup* section of [this page](https://ucsd-cse15l-w23.github.io/week/week7/).   
 
 
 
