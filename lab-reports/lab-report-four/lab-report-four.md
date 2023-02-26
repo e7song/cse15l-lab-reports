@@ -24,6 +24,7 @@ Scroll to the bottom and proceed with the following steps.
 ![image](https://user-images.githubusercontent.com/67176000/221398325-45d0fbf0-2b32-422c-908d-9d3ec15112bb.png)    
 
 ### Step 2: Setup   
+Click on this ![link](https://github.com/ucsd-cse15l-w23/lab7).
 
 
 
