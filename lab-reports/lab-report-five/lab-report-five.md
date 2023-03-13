@@ -1,12 +1,12 @@
 # CSE 15L Winter 2023 Lab Report #4   
 ### Eric Song, Wed. 1 p.m.   
-## **__Week 7- CSE Labs "Done Quick"__**   
+## **Week 7- CSE Labs "Done Quick"**   
 
-### **__Introduction__**   
+### **Introduction**   
 Lab 7 was my favorite lab because it was fun experimenting with how I could make process of running each step smoother and faster. 
 This would include using techniques such as the pressing up/down arrow to navigate previously used commands and various other shortcuts.   
 
-### __**Previous Process**__      
+### **Previous Process**      
 ```
 +-- lab7
 |   +-- lib
@@ -26,10 +26,10 @@ To fix the error, I would use `nano ListExamples.java <enter>`.
 Finally, to push and commit to github, I would use `git commit -am "Resolved infinite loop error" && git push <enter>`.   
 Although I managed to cut my time down to about one minute, this challenge could have been completed much faster with a script.   
 
-### __**New Process**__   
+### **New Process**   
 Using what I've learned, I made a script that would do every step in the challenge (aside from the manual ones like forking the repository and deleting it).  
 
-#### __Setup__   
+#### Setup   
 
 ![image](https://user-images.githubusercontent.com/67176000/224747765-2c289c23-118b-4e1d-8ee6-1155f33245ca.png)   
 
@@ -74,7 +74,7 @@ When I check the repository, the updates are reflected!
 My script basically just runs the same thing I ran in lab, just bundled neatly into one place. However, there is a key difference.   
 I used `sed` instead of `nano` to edit my code.   
 
-### __**Explanation**__   
+### **Explanation**   
 ```
 sed -i '43d' ListExamples.java
 sed -i '42d' ListExamples.java
