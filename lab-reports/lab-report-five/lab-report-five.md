@@ -27,7 +27,7 @@ Finally, to push and commit to github, I would use `git commit -am "Resolved inf
 Although I managed to cut my time down to about one minute, this challenge could have been completed much faster with a script.   
 
 ### __**New Process**__   
-Using what I've learned, I made a script that would do every step in the challenge (asside from the manual ones like forking the repository and deleting it).  
+Using what I've learned, I made a script that would do every step in the challenge (aside from the manual ones like forking the repository and deleting it).  
 
 #### __Setup__   
 
